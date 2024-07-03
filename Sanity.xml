@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+		<listeners>
+		
+		<listener class-name="Resources.AutoBots.Listeners"></listener>
+	</listeners>
+
+	<test name="Test">
+		<classes>
+
+			<class name="BuildFrameWork.AutoBots.LoginValidationsTest" />">
+			 <methods>
+				<include name="gotoUrlvalidationTest" />""> 
+				<include name="login" />">
+				 </methods>
+      <class
+				name="BuildFrameWork.AutoBots.TextvalidationTest" />"> <methods>
+				<include name="Titlevalidationtest" />
+			</methods>
+		  
+		    <class name="BuildFrameWork.AutoBots.HomepagevalidationsTest" />">
+		     <methods>
+				<include name="urlvalidationstest" />
+				<include name="Titlenamevalidationtest" />
+				<include name="Titlewelcomvalidationtest" />
+				<include name="Greenkartvalidationtest" />
+			</methods>
+		  
+		   <class name="BuildFrameWork.AutoBots.ItemspageValidationTest" />">
+		    <methods>
+				<include name="urlvalidationstest" />
+				<include name="searchvalidationtest" />
+				<include name="additemsvalidationtest" />
+				<include name="greenkartpagevalidationtest" />
+				<include name="proceedbuttonvalidationtest" />
+			</methods>
+		   
+		   <class name="BuildFrameWork.AutoBots.CheckoutpageValidationTest" />">
+		    <methods>
+				<include name="urlvalidationstest" />
+				<include name="promocodetestvalidation" />
+				<include name="applytestvalidation" />
+				<include name="placeordertestvalidation" />
+				<include name="closebuttontestvalidation" />
+			</methods>
+		   
+		   
+		     <class name="BuildFrameWork.AutoBots.myorderstestvalidation" />">
+		      <methods>
+				<include name="urlvalidationstest" />
+				<include name="myordersvalidation" />
+				<include name="gotogreenkartvalidationTest" />
+			</methods>
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->
